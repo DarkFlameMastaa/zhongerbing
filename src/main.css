@@ -1,0 +1,46 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  font-family: "Microsoft Yahei",Sans-serif;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.arrow{
+  display:block;
+  position:absolute;
+  top:50%;
+  width:2em;
+  height:2em;
+  line-height:2em;
+  font-size:2em;
+  font-weight: bolder;
+  margin-top:-1em;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+  background: rgba(24, 27, 27,0.5)
+}
+.leftb{
+  left: 0;
+}
+.rightb{
+  right: 0;
+}
+.navbarNobottom{
+  position: relative;
+  min-height: 50px;
+  border: 1px solid transparent;
+}
+.bg{
+  background: rgb(92, 170, 177);
+  border:1px solid rgb(206, 233, 94);
+}
+
+@media(min-width:520px){
+  .col-md-4{
+    width: 33.333%;
+  }
+}
