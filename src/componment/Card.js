@@ -1,10 +1,10 @@
 import React, { PropTypes } from 'react'
-import {browserHistory} from 'react-router'
+import {hashHistory} from 'react-router'
 
 class Card extends React.Component {
   handleJump(){
-    let address=this.props.url
-    browserHistory.push(`blog/${address}`)
+    let address=this.props.url;
+    hashHistory.push(`blog/${address}`)
   }
   render () {
     return(

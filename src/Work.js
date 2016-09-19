@@ -23,6 +23,7 @@ class Work extends React.Component {
     )
   }
   render () {
+    console.log(this.state.zhongerbingData);
     let cards=this.state.zhongerbingData.map((item,i) => {
         return(<Card {...item} key={i}/>)
       })

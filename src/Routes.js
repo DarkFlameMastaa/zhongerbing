@@ -5,12 +5,12 @@ import Home from './Home.js'
 import Work from './Work.js'
 import Blog from './Blog.js'
 import NotFound from './404.js'
-import {Router,Route,browserHistory,hashHistory,IndexRoute} from  'react-router'
+import {Router,Route,hashHistory,IndexRoute} from  'react-router'
 
 class Routes extends React.Component {
   render () {
     return(
-      <Router history={browserHistory}>
+      <Router history={hashHistory}>
         <Route path="/" component={App}>
           <IndexRoute component={Home} />
           <Route path="/about" component={About}/>

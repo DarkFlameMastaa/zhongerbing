@@ -19,5 +19,16 @@ function serchUserName(un) {
   });
 }
 
+function getArticle(name) {
+  return axios.get(`https://raw.githubusercontent.com/DarkFlameMastaa/markdownarticle/master/${name}.md`)
+  .then((response) => (
+          response.data
+          ))
+  .catch(function (error) {
+    console.log(error);
+  });
+}
+
 export {zhongerbingData}
 export {serchUserName}
+export {getArticle}

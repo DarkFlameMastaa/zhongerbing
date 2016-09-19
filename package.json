@@ -29,8 +29,10 @@
     "axios": "^0.14.0",
     "bootstrap": "^3.3.7",
     "express": "^4.14.0",
+    "marked": "^0.3.6",
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
-    "react-router": "^2.8.0"
+    "react-router": "^2.8.0",
+    "remarkable": "^1.6.2"
   }
 }

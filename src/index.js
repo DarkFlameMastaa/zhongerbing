@@ -2,8 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Routes from './Routes.js'
 import NotFound from './404.js'
+import Marked from './Marked.js'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Router,Route,browserHistory,hashHistory} from  'react-router'
+import {Router,Route} from  'react-router'
 import './main.css'
 
 ReactDOM.render(
@@ -11,6 +12,13 @@ ReactDOM.render(
     <Routes/>
   </div>
 , document.getElementById('app'));
+
+// ReactDOM.render(
+//   <div>
+//     <Marked />
+//   </div>
+// , document.getElementById('app'));
+
 // import React from "react"
 // import ReactDOM from "react-dom"
 // import {Link,Route,Router,Redirect,IndexRoute} from "react-router"
